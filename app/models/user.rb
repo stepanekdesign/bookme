@@ -6,5 +6,5 @@ has_person_name
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 
-  has_many: booking_types
+  has_many :booking_types
 end
